@@ -1,0 +1,8 @@
+/**
+If you don't like this font, you can go to https://fonts.google.com/ to find a font of your choice
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
