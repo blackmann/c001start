@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="container my-5">
+
+    <div class="row mb-5">
+      <div class="col-8">
+        <img src="" alt="" class="img-fluid rounded w-100" id="image-view">
+      </div>
+
+      <div class="col-3 ml-3">
+        <div class="border-left px-3">
+          <p class="text-muted">Caption</p>
+          <p id="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quis alias voluptatem
+            quisquam dolores
+            deserunt perspiciatis voluptatum nesciunt quod iusto!</p>
+        </div>
+
+        <button class="btn btn-outline-primary" id="prev">Previous</button>
+        <button class="btn btn-primary" id="next">Next</button>
+      </div>
+    </div>
+
+    <p class="h6 font-weight-bold">Comments</p>
+
+    <div class="row">
+      <div class="col-6">
+
+        <div id="comments">
+
+        </div>
+
+        <div class="input-group mt-5">
+          <input type="text" class="form-control" placeholder="Your comment" id="comment-input">
+          <div class="input-group-append" id="button-addon4">
+            <button class="btn btn-primary" type="button" id="add-comment">Comment</button>
+          </div>
+        </div>
+        <small class="text-muted">Please be nice😊</small>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
